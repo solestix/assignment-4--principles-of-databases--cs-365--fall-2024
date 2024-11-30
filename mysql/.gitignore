@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!create-tables.sql
+!insert-values.sql
+!setup.sql
+!variables.sql
