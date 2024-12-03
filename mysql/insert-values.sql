@@ -12,23 +12,23 @@ INSERT INTO
   album
 VALUES
   (1, "Dysnomia"),
-  (1, "Turn on the Bright Lights"),
-  (1, "Dead Cool"),
-  (1, "Houdini"),
-  (1, "Come on Die Young"),
-  (2, "Every Country’s Sun"),
-  (1, "Heads Up");
+  (2, "Turn on the Bright Lights"),
+  (3, "Dead Cool"),
+  (4, "Houdini"),
+  (5, "Come on Die Young"),
+  (6, "Every Country’s Sun"),
+  (7, "Heads Up");
 
 INSERT INTO
   compiles
 VALUES
   (1, 1),
-  (2, 1),
-  (3, 1),
-  (4, 1),
-  (5, 1),
-  (5, 2),
-  (6, 1);
+  (2, 2),
+  (3, 3),
+  (4, 4),
+  (5, 5),
+  (5, 6),
+  (6, 7);
 
 INSERT INTO
   track
@@ -71,17 +71,17 @@ INSERT INTO track VALUES (20, 'Leif Erikson', '4.00');
 INSERT INTO
   contains
 VALUES
-  (2, 1, 10),
-  (2, 1, 11),
-  (2, 1, 12),
-  (2, 1, 13),
-  (2, 1, 14),
-  (2, 1, 15),
-  (2, 1, 16),
-  (2, 1, 17),
-  (2, 1, 18),
-  (2, 1, 19),
-  (2, 1, 20);
+  (2, 2, 10),
+  (2, 2, 11),
+  (2, 2, 12),
+  (2, 2, 13),
+  (2, 2, 14),
+  (2, 2, 15),
+  (2, 2, 16),
+  (2, 2, 17),
+  (2, 2, 18),
+  (2, 2, 19),
+  (2, 2, 20);
 
 INSERT INTO track VALUES (21, 'Dead Cool', '5.25');
 INSERT INTO track VALUES (22, 'Desperate Friend', '2.04');
@@ -95,14 +95,14 @@ INSERT INTO track VALUES (28, 'Burn Baby Burn', '6.13');
 INSERT INTO
   contains
 VALUES
-  (3, 1, 21),
-  (3, 1, 22),
-  (3, 1, 23),
-  (3, 1, 24),
-  (3, 1, 25),
-  (3, 1, 26),
-  (3, 1, 27),
-  (3, 1, 28);
+  (3, 3, 21),
+  (3, 3, 22),
+  (3, 3, 23),
+  (3, 3, 24),
+  (3, 3, 25),
+  (3, 3, 26),
+  (3, 3, 27),
+  (3, 3, 28);
 
 INSERT INTO track VALUES (29, 'Hooch', '2.49');
 INSERT INTO track VALUES (30, 'Night Goat', '4.41');
@@ -121,19 +121,19 @@ INSERT INTO track VALUES (41, 'Spread Eagle Beagle', '10.14');
 INSERT INTO
   contains
 VALUES
-  (4, 1, 29),
-  (4, 1, 30),
-  (4, 1, 31),
-  (4, 1, 32),
-  (4, 1, 33),
-  (4, 1, 34),
-  (4, 1, 35),
-  (4, 1, 36),
-  (4, 1, 37),
-  (4, 1, 38),
-  (4, 1, 39),
-  (4, 1, 40),
-  (4, 1, 41);
+  (4, 4, 29),
+  (4, 4, 30),
+  (4, 4, 31),
+  (4, 4, 32),
+  (4, 4, 33),
+  (4, 4, 34),
+  (4, 4, 35),
+  (4, 4, 36),
+  (4, 4, 37),
+  (4, 4, 38),
+  (4, 4, 39),
+  (4, 4, 40),
+  (4, 4, 41);
 
 INSERT INTO track VALUES (42, 'Punk Rock:', '2.09');
 INSERT INTO track VALUES (43, 'Cody', '6.33');
@@ -151,18 +151,18 @@ INSERT INTO track VALUES (53, 'Punk Rock/Puff Daddy/Antichrist', '2.14');
 INSERT INTO
   contains
 VALUES
-  (5, 1, 42),
-  (5, 1, 43),
-  (5, 1, 44),
-  (5, 1, 45),
-  (5, 1, 46),
-  (5, 1, 47),
-  (5, 1, 48),
-  (5, 1, 49),
-  (5, 1, 50),
-  (5, 1, 51),
-  (5, 1, 52),
-  (5, 1, 53);
+  (5, 5, 42),
+  (5, 5, 43),
+  (5, 5, 44),
+  (5, 5, 45),
+  (5, 5, 46),
+  (5, 5, 47),
+  (5, 5, 48),
+  (5, 5, 49),
+  (5, 5, 50),
+  (5, 5, 51),
+  (5, 5, 52),
+  (5, 5, 53);
 
 INSERT INTO track VALUES (54, 'Coolverine', '6.17');
 INSERT INTO track VALUES (55, 'Party in the Dark', '4.02');
@@ -179,17 +179,17 @@ INSERT INTO track VALUES (64, 'Every Country’s Sun', '5.38');
 INSERT INTO
   contains
 VALUES
-  (5, 2, 54),
-  (5, 2, 55),
-  (5, 2, 56),
-  (5, 2, 57),
-  (5, 2, 58),
-  (5, 2, 59),
-  (5, 2, 60),
-  (5, 2, 61),
-  (5, 2, 62),
-  (5, 2, 63),
-  (5, 2, 64);
+  (5, 6, 54),
+  (5, 6, 55),
+  (5, 6, 56),
+  (5, 6, 57),
+  (5, 6, 58),
+  (5, 6, 59),
+  (5, 6, 60),
+  (5, 6, 61),
+  (5, 6, 62),
+  (5, 6, 63),
+  (5, 6, 64);
 
 INSERT INTO track VALUES (65, 'Whiteout', '4.42');
 INSERT INTO track VALUES (66, 'By Your Side', '4.32');
@@ -206,17 +206,17 @@ INSERT INTO track VALUES (75, 'Today Dear', '4.49');
 INSERT INTO
   contains
 VALUES
-  (6, 1, 65),
-  (6, 1, 66),
-  (6, 1, 67),
-  (6, 1, 68),
-  (6, 1, 69),
-  (6, 1, 70),
-  (6, 1, 71),
-  (6, 1, 72),
-  (6, 1, 73),
-  (6, 1, 74),
-  (6, 1, 75);
+  (6, 7, 65),
+  (6, 7, 66),
+  (6, 7, 67),
+  (6, 7, 68),
+  (6, 7, 69),
+  (6, 7, 70),
+  (6, 7, 71),
+  (6, 7, 72),
+  (6, 7, 73),
+  (6, 7, 74),
+  (6, 7, 75);
 
 INSERT INTO played VALUES ("20060814102103");
 INSERT INTO played VALUES ("20060814102522");

@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS compiles (
   album_id  INT NOT NULL,
 
   PRIMARY KEY (artist_id, album_id)
-)
+);
 
 CREATE TABLE IF NOT EXISTS album (
   album_id   INT          NOT NULL,
